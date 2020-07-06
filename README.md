@@ -1,6 +1,6 @@
-# Getting started with Typescript
+# Typescript Playground
 
-My first project using TypeScript.
+Learning TypeScript.
 
 ## Technologies
 
@@ -8,6 +8,9 @@ Typescript
 
 ## Getting Started
 
-1. Clone this repository
-2. Open index.html
+This programme requires [node to be installed](https://nodejs.org/en/download/).
 
+1. Clone this repository
+2. `npm install` 
+3. `npx tsc greeter.ts`
+4. Open index.html
