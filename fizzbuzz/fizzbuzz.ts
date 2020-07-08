@@ -1,16 +1,16 @@
 class FizzBuzz {
   run(size:number):string[] {
-    let output:string[] = [];
+    let output = [];
     for (let i:number = 1; i <= size; i++) {
-      if(i === 3) { 
-        output.push("fizz");
-      } else if(i === 5) {
-        output.push("buzz")
-      } else { 
-        output.push(i.toString()); 
-      };
+      output.push(this.convert(i))
     };
     return output;
+  }
+
+  private convert(number: number): string {
+    if(number === 3) return "fizz";
+    if(number === 5) return "buzz";
+    return number.toString(); 
   }
 }
 
