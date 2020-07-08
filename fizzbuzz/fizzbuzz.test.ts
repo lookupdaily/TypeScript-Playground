@@ -30,7 +30,7 @@ describe('fizzbuzz', () => {
     expect(fizzBuzzTen).toEqual("buzz");
   });
 
-  it('multiples of 3 and 5 are fizzBuzz', () => {
+  it('multiples of 3 and 5 are fizzbuzz', () => {
     const fizzBuzzFifteen = fizzBuzz.run(15)[14];
     expect(fizzBuzzFifteen).toEqual("fizzbuzz")
   })
