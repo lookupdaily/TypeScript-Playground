@@ -1,6 +1,10 @@
 class FizzBuzz {
   run(size:number):string[] {
-    return ["1"]
+    let output:string[] = [];
+    for (let i:number = 1; i <= size; i++) {
+      output.push(i.toString())
+    };
+    return output;
   }
 }
 
