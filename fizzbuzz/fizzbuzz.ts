@@ -2,7 +2,11 @@ class FizzBuzz {
   run(size:number):string[] {
     let output:string[] = [];
     for (let i:number = 1; i <= size; i++) {
-      output.push(i.toString())
+      if(i === 3) { 
+        output.push("fizz") 
+      } else { 
+        output.push(i.toString()) 
+      }
     };
     return output;
   }
