@@ -12,8 +12,12 @@ describe('fizzbuzz', () => {
     expect(fizzBuzz.run(2)).toEqual(["1", "2"]);
   });
 
-  it('fizz is 3', () => {
+  it('3 is fizz', () => {
     expect(fizzBuzz.run(3)).toEqual(["1","2","fizz"]);
   });
+
+  it('5 is buzz', () => {
+    expect(fizzBuzz.run(5)).toEqual(["1","2","fizz","4","buzz"])
+  })
 
 });
