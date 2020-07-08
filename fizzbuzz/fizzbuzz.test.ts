@@ -20,4 +20,9 @@ describe('fizzbuzz', () => {
     expect(fizzBuzz.run(5)).toEqual(["1","2","fizz","4","buzz"])
   })
 
+  it('multiples of 3 are fizz', () => {
+    const fizzBuzzSix = fizzBuzz.run(6)[5]
+    expect(fizzBuzzSix).toEqual("fizz")
+  })
+
 });
